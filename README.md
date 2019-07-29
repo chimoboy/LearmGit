@@ -1,2 +1,2 @@
-# LearmGit
+# LearnGit
 a learnning project
