@@ -1,13 +1,15 @@
-���ƽű��õ�udp���䡣����ο�udptest.unitypackage
+控制脚本用的udp传输。具体参考udptest.unitypackage
  SHA256:nThbg6kXUpJWGl7E1IGOCspRomTxdCARLviKw6E5SY8.
- �鿴Զ�̿���Ϣ��ʹ��git remote -v��
+ 查看远程库信息，使用git remote -v；
 
-�����½��ķ�֧��������͵�Զ�̣��������˾��ǲ��ɼ��ģ�
+本地新建的分支如果不推送到远程，对其他人就是不可见的；
 
-�ӱ������ͷ�֧��ʹ��git push origin branch-name���������ʧ�ܣ�����git pullץȡԶ�̵����ύ��
+从本地推送分支，使用git push origin branch-name，如果推送失败，先用git pull抓取远程的新提交；
 
-�ڱ��ش�����Զ�̷�֧��Ӧ�ķ�֧��ʹ��git checkout -b branch-name origin/branch-name�����غ�Զ�̷�֧���������һ�£�
+在本地创建和远程分支对应的分支，使用git checkout -b branch-name origin/branch-name，本地和远程分支的名称最好一致；
 
-�������ط�֧��Զ�̷�֧�Ĺ�����ʹ��git branch --set-upstream branch-name origin/branch-name��
+建立本地分支和远程分支的关联，使用git branch --set-upstream branch-name origin/branch-name；
 
-��Զ��ץȡ��֧��ʹ��git pull������г�ͻ��Ҫ�ȴ�����ͻ��
+从远程抓取分支，使用git pull，如果有冲突，要先处理冲突。
+
+这是分界线-------------------------------------------------------------------
